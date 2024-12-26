@@ -51,7 +51,7 @@ To get started with **Madhav Infotech**:
 
 ## Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript, Bootstrap  
+- **Frontend**: HTML, CSS, JavaScript, BootStrap  
 
 ## Contact
 
@@ -59,7 +59,7 @@ For any inquiries or if you'd like to discuss your project, feel free to reach o
 
 - **Email**: [madhavwebservice@gmail.com](mailto:madhavwebservice@gmail.com)
 - **Phone**: +91 70162 23029
-- **Website**: [madhavinfotech.com](http://madhavinfotech.com)
+- **Website**: (https://parmarkalpesh.github.io/MadhavInfotech/)
 
 ## License
 
