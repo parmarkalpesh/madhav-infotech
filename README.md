@@ -31,9 +31,9 @@ Welcome to **Madhav Infotech** – your trusted partner in web development, desi
 
 For any inquiries or if you'd like to discuss your project, feel free to reach out to us:
 
-- **Email**: [madhavwebservice@gmail.com](mailto:madhavwebservice@gmail.com)
+- **Email**: [mailto:madhavwebservice@gmail.com]
 - **Phone**: +91 70162 23029
-- **Website**: (https://parmarkalpesh.github.io/MadhavInfotech/)
+- **Website**: [https://parmarkalpesh.github.io/MadhavInfotech/]
 
 ## License
 
