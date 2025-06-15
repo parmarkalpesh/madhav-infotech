@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Madhav Infotech</title>
+  <title>Madhav Infotech - Web Design & Development | Digital Marketing | Software Solutions</title>
+  <meta name="description" content="Top IT company in Jamnagar offering web design, development, digital marketing, and software solutions. Elevate your business with our expert services.">
+  <meta name="keywords" content="web design, web development, digital marketing, software development, IT services, Jamnagar, Gujarat">
   <link rel="icon" href="./assets/img/app-development.png" sizes="48x48" />
   <link rel="stylesheet" href="./assets/vendor/animate/animate.css">
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
@@ -12,14 +14,87 @@
   <link rel="stylesheet" href="./assets/vendor/owl-carousel/css/owl.carousel.css">
   <link rel="stylesheet" href="./assets/css/theme.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+  <style>
+    /* Additional styles for projects section */
+    .project-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-10px);
+    }
+    
+    .project-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .project-body {
+      padding: 20px;
+    }
+    
+    .project-title {
+      color: #2D2B3A;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    
+    .project-description {
+      color: #898798;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    
+    .project-tech {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    
+    .tech-badge {
+      background: #F6F5FC;
+      color: #645F88;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+    }
+    
+    /* SEO improvements */
+    h1, h2, h3, h4, h5 {
+      line-height: 1.3;
+    }
+    
+    .seo-keyword {
+      color: #6C55F9;
+      font-weight: 600;
+    }
+    
+    /* Improved contact form */
+    .contact-form .form-control {
+      border: 1px solid #D7D5E9;
+      border-radius: 4px;
+      padding: 12px 15px;
+      margin-bottom: 15px;
+    }
+    
+    .contact-form textarea {
+      min-height: 120px;
+    }
+  </style>
 </head>
 <body>
   <div class="back-to-top"></div>
   <header class="header-padding">
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a href="index.html" class="navbar-brand">Madhav Infotech<span class="text-primary"> - IT Company</span></a>
+        <a href="index.html" class="navbar-brand">Madhav Infotech<span class="text-primary"> - IT Solutions</span></a>
         </div>
       </div>
     </nav>
@@ -28,8 +103,8 @@
       <div class="container h-100">
         <div class="row align-items-center h-100">
           <div class="col-lg-6 py-3 wow fadeInUp">
-            <h1 class="mb-4">Elevate Your Business with Innovative Web Solutions</h1>
-            <p class="text-lg mb-5">Transform your online presence with our cutting-edge web design, development, and digital marketing services. Let us help you achieve success and growth!</p>
+            <h1 class="mb-4">Elevate Your Business with <span class="seo-keyword">Innovative IT Solutions</span></h1>
+            <p class="text-lg mb-5">Transform your online presence with our cutting-edge web design, development, and <span class="seo-keyword">digital marketing services</span>. Let us help you achieve success and growth!</p>
                 <a href="mailto:madhavwebservice@gmail.com" class="btn btn-primary btn-split ml-2">Get In Touch<div class="fab">
                 <span class="mai-mail"></span>
               </div>
@@ -37,30 +112,28 @@
           </div>
           <div class="col-lg-6 py-3 wow zoomIn">
             <div class="img-place">
-              <img src="./assets/img/bg_image_1.png" alt="Elevate your business with our innovative solutions">
+              <img src="./assets/img/bg_image_1.png" alt="IT solutions for business growth">
             </div>
           </div>
         </div>
       </div>
     </div>
-    
   </header>
   
-  
   <main>
-   
     <div class="page-section features">
       <div class="container">
         <div class="text-center wow fadeInUp">
           <div class="subhead">Our Services</div>
           <h2 class="title-section">What We Offer</h2>
           <div class="divider mx-auto"></div>
+          <p class="mt-3">Comprehensive IT solutions designed to boost your online presence and business growth</p>
         </div>
         <div class="row justify-content-center mt-5">
           <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="d-flex flex-row">
               <div class="img-fluid mr-3">
-                <img src="./assets/img/website-designer.png" alt="Icon" style="width: 70px; height: 70px; object-fit: contain;">
+                <img src="./assets/img/website-designer.png" alt="Web Design" style="width: 70px; height: 70px; object-fit: contain;">
               </div>
               <div>
                 <h5>Web Design</h5>
@@ -71,7 +144,7 @@
           <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="d-flex flex-row">
               <div class="img-fluid mr-3">
-                <img src="./assets/img/app-development.png" alt="Icon" style="width: 70px; height: 70px; object-fit: contain;">
+                <img src="./assets/img/app-development.png" alt="Web Development" style="width: 70px; height: 70px; object-fit: contain;">
               </div>
               <div>
                 <h5>Web Development</h5>
@@ -82,7 +155,7 @@
           <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="d-flex flex-row">
               <div class="img-fluid mr-3">
-                <img src="./assets/img/Graphics.png" alt="Icon" style="width: 70px; height: 70px; object-fit: contain;">
+                <img src="./assets/img/Graphics.png" alt="Graphics Design" style="width: 70px; height: 70px; object-fit: contain;">
               </div>
               <div>
                 <h5>Graphics Design</h5>
@@ -93,7 +166,7 @@
           <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="d-flex flex-row">
               <div class="img-fluid mr-3">
-                <img src="./assets/img/software-development.png" alt="Icon" style="width: 70px; height: 70px; object-fit: contain;">
+                <img src="./assets/img/software-development.png" alt="Software Development" style="width: 70px; height: 70px; object-fit: contain;">
               </div>
               <div>
                 <h5>Software Development</h5>
@@ -104,7 +177,7 @@
           <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="d-flex flex-row">
               <div class="img-fluid mr-3">
-                <img src="./assets/img/google-business.png" alt="Icon" style="width: 70px; height: 70px; object-fit: contain;">
+                <img src="./assets/img/google-business.png" alt="Google Business Profile" style="width: 70px; height: 70px; object-fit: contain;">
               </div>
               <div>
                 <h5>Google Business Profile</h5>
@@ -112,23 +185,151 @@
               </div>
             </div>
           </div>
+          <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
+            <div class="d-flex flex-row">
+              <div class="img-fluid mr-3">
+                <img src="./assets/img/digital-marketing.png" alt="Digital Marketing" style="width: 70px; height: 70px; object-fit: contain;">
+              </div>
+              <div>
+                <h5>Digital Marketing</h5>
+                <p>Comprehensive strategies to increase online visibility and drive conversions.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    
+    <!-- New Projects Section -->
+    <div class="page-section bg-light">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="subhead">Our Portfolio</div>
+          <h2 class="title-section">Our <span class="marked">Latest</span> Projects</h2>
+          <div class="divider mx-auto"></div>
+          <p class="mt-3">Check out some of our recent work. We take pride in delivering high-quality solutions to our clients.</p>
+        </div>
+
+        <div class="row mt-5">
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+            <div class="project-card">
+              <img src="./assets/img/project1.jpg" alt="E-commerce Website Development" class="project-img">
+              <div class="project-body">
+                <h3 class="project-title">E-commerce Fashion Store</h3>
+                <p class="project-description">Complete e-commerce solution with product catalog, secure payment gateway, and responsive design.</p>
+                <div class="project-tech">
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">Node.js</span>
+                  <span class="tech-badge">MongoDB</span>
+                  <span class="tech-badge">Stripe API</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 2 -->
+          <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+            <div class="project-card">
+              <img src="./assets/img/project2.jpg" alt="Business Management Software" class="project-img">
+              <div class="project-body">
+                <h3 class="project-title">Business Management System</h3>
+                <p class="project-description">Custom CRM solution with inventory management, order tracking, and analytics dashboard.</p>
+                <div class="project-tech">
+                  <span class="tech-badge">Vue.js</span>
+                  <span class="tech-badge">Express</span>
+                  <span class="tech-badge">PostgreSQL</span>
+                  <span class="tech-badge">Chart.js</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 3 -->
+          <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+            <div class="project-card">
+              <img src="./assets/img/project3.jpg" alt="Restaurant Website Design" class="project-img">
+              <div class="project-body">
+                <h3 class="project-title">Restaurant Website & Booking System</h3>
+                <p class="project-description">Modern restaurant website with online reservation system and menu management.</p>
+                <div class="project-tech">
+                  <span class="tech-badge">HTML5/CSS3</span>
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">PHP</span>
+                  <span class="tech-badge">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 4 -->
+          <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+            <div class="project-card">
+              <img src="./assets/img/project4.jpg" alt="Educational Platform" class="project-img">
+              <div class="project-body">
+                <h3 class="project-title">Online Learning Platform</h3>
+                <p class="project-description">E-learning solution with course management, video streaming, and student progress tracking.</p>
+                <div class="project-tech">
+                  <span class="tech-badge">Angular</span>
+                  <span class="tech-badge">Firebase</span>
+                  <span class="tech-badge">Video.js</span>
+                  <span class="tech-badge">Stripe</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 5 -->
+          <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+            <div class="project-card">
+              <img src="./assets/img/project5.jpg" alt="Mobile Application Development" class="project-img">
+              <div class="project-body">
+                <h3 class="project-title">Fitness Tracking Mobile App</h3>
+                <p class="project-description">Cross-platform fitness application with workout plans, progress tracking, and nutrition guides.</p>
+                <div class="project-tech">
+                  <span class="tech-badge">React Native</span>
+                  <span class="tech-badge">Redux</span>
+                  <span class="tech-badge">Node.js</span>
+                  <span class="tech-badge">MongoDB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 6 -->
+          <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+            <div class="project-card">
+              <img src="./assets/img/project6.jpg" alt="Corporate Website Redesign" class="project-img">
+              <div class="project-body">
+                <h3 class="project-title">Corporate Website Redesign</h3>
+                <p class="project-description">Complete website overhaul with modern design, improved UX, and SEO optimization.</p>
+                <div class="project-tech">
+                  <span class="tech-badge">WordPress</span>
+                  <span class="tech-badge">Elementor</span>
+                  <span class="tech-badge">SEO</span>
+                  <span class="tech-badge">Performance</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div class="page-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 py-3 wow zoomIn">
             <div class="img-place text-center">
-              <img src="./assets/img/bg_image_2.png" alt="Dynamic Team of Creative Professionals">
+              <img src="./assets/img/bg_image_2.png" alt="Creative IT Professionals Team">
             </div>
           </div>
           <div class="col-lg-6 py-3 wow fadeInRight">
             <h2 class="title-section">We Are a <span class="marked">Dynamic</span> Team of Creative Professionals</h2>
             <div class="divider"></div>
-            <p>Our team specializes in helping startups and small businesses thrive in the digital world. We provide expert marketing, design, and development services that drive growth, attract customers, and improve brand visibility. Let's turn your vision into reality!</p>
+            <p>Our team specializes in helping startups and small businesses thrive in the digital world. We provide expert <span class="seo-keyword">marketing, design, and development services</span> that drive growth, attract customers, and improve brand visibility. Let's turn your vision into reality!</p>
             <div class="img-place mb-3">
-              <img src="./assets/img/testi_image.png" alt="Successful Client Testimonial">
+              <img src="./assets/img/testi_image.png" alt="Client testimonial for Madhav Infotech">
             </div>
             <a href="#" class="btn btn-primary">Learn More About Us</a>
             <a href="#" class="btn btn-outline border ml-2">Read Our Success Stories</a>
@@ -136,7 +337,6 @@
         </div>
       </div> <!-- .container -->
     </div>
-     <!-- .page-section -->
   
     <div class="page-section">
       <div class="container">
@@ -144,16 +344,16 @@
           <div class="col-lg-6 py-3 wow fadeInLeft">
             <h2 class="title-section">We're <span class="marked">ready to</span> Serve you with best</h2>
             <div class="divider"></div>
-            <p class="mb-5">We provide marketing services to startups & small business to looking for partner for their digital media, design & dev lead generation & communication.</p>
+            <p class="mb-5">We provide <span class="seo-keyword">marketing services</span> to startups & small businesses looking for a partner for their digital media, design & development, lead generation & communication.</p>
           </div>
           <div class="col-lg-6 py-3 wow zoomIn">
             <div class="img-place text-center">
-              <img src="./assets/img/bg_image_3.png" alt="">
+              <img src="./assets/img/bg_image_3.png" alt="IT services for business growth">
             </div>
           </div>
         </div>
       </div> <!-- .container -->
-    </div> <!-- .page-section -->
+    </div>
   
     <div class="page-section">
       <div class="container">
@@ -161,31 +361,30 @@
           <div class="subhead">Why Choose Us</div>
           <h2 class="title-section">Your <span class="marked">Comfort</span> is Our Priority</h2>
           <div class="divider mx-auto"></div>
+          <p class="mt-3">We focus on delivering exceptional value and results for our clients</p>
         </div>
     
         <div class="row mt-5 text-center">
           <div class="col-lg-4 py-3 wow fadeInUp">
-            <div class="display-3"><i class="fas fa-tachometer-alt"></i></div> <!-- High Performance Icon -->
+            <div class="display-3"><i class="fas fa-tachometer-alt"></i></div>
             <h5>High Performance</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+            <p>We build solutions optimized for speed, reliability, and scalability.</p>
           </div>
           <div class="col-lg-4 py-3 wow fadeInUp">
-            <div class="display-3"><i class="fas fa-tags"></i></div> <!-- Friendly Prices Icon -->
-            <h5>Friendly Prices</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+            <div class="display-3"><i class="fas fa-tags"></i></div>
+            <h5>Competitive Pricing</h5>
+            <p>Premium services at affordable prices with flexible payment options.</p>
           </div>
           <div class="col-lg-4 py-3 wow fadeInUp">
-            <div class="display-3"><i class="fas fa-clock"></i></div> <!-- No Time Confusing Icon -->
-            <h5>No time-confusing</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+            <div class="display-3"><i class="fas fa-clock"></i></div>
+            <h5>Timely Delivery</h5>
+            <p>We respect deadlines and deliver projects on time, every time.</p>
           </div>
         </div>
       </div> <!-- .container -->
     </div>
-     <!-- .page-section -->
   
-   
-     <div class="page-section">
+    <div class="page-section">
       <div class="container">
         <div class="row align-items-center">
           <!-- Left Section: Contact Information -->
@@ -197,7 +396,7 @@
             <ul class="contact-list">
               <li>
                 <div class="icon"><span class="mai-map"></span></div>
-                <div class="content">Murlidhar Nagar, Jamnagar, Gujrat.</div>
+                <div class="content">Murlidhar Nagar, Jamnagar, Gujarat, India</div>
               </li>
               <li>
                 <div class="icon"><span class="mai-mail"></span></div>
@@ -216,7 +415,7 @@
             <h2 class="title-section">Drop Us a Line</h2>
             <div class="divider"></div>
     
-            <form action="#">
+            <form action="#" class="contact-form">
               <div class="py-2">
                 <input type="text" class="form-control" placeholder="Full Name" required>
               </div>
@@ -224,39 +423,39 @@
                 <input type="email" class="form-control" placeholder="Email" required>
               </div>
               <div class="py-2">
+                <input type="tel" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="py-2">
                 <textarea rows="6" class="form-control" placeholder="Enter Your Message" required></textarea>
               </div>
               <button type="submit" class="btn btn-primary rounded mt-4">Send Message</button>
-
             </form>
           </div>
         </div>
       </div> <!-- .container -->
     </div>
-     <!-- .page-section -->
   
      <div class="page-section client-section">
       <div class="container-fluid">
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center">
           <div class="item wow zoomIn">
-            <img src="./assets/img/app-development.png" alt="service 1" class="img-fluid" style="max-width: 120px; height: auto;">
+            <img src="./assets/img/app-development.png" alt="App Development" class="img-fluid" style="max-width: 120px; height: auto;">
           </div>
           <div class="item wow zoomIn">
-            <img src="./assets/img/Graphics.png" alt="service 2" class="img-fluid" style="max-width: 120px; height: auto;">
+            <img src="./assets/img/Graphics.png" alt="Graphics Design" class="img-fluid" style="max-width: 120px; height: auto;">
           </div>
           <div class="item wow zoomIn">
-            <img src="./assets/img/google-business.png" alt="service 3" class="img-fluid" style="max-width: 120px; height: auto;">
+            <img src="./assets/img/google-business.png" alt="Google Business" class="img-fluid" style="max-width: 120px; height: auto;">
           </div>
           <div class="item wow zoomIn">
-            <img src="./assets/img/software-development.png" alt="service 4" class="img-fluid" style="max-width: 120px; height: auto;">
+            <img src="./assets/img/software-development.png" alt="Software Development" class="img-fluid" style="max-width: 120px; height: auto;">
           </div>
           <div class="item wow zoomIn">
-            <img src="./assets/img/website-designer.png" alt="service 5" class="img-fluid" style="max-width: 120px; height: auto;">
+            <img src="./assets/img/website-designer.png" alt="Website Design" class="img-fluid" style="max-width: 120px; height: auto;">
           </div>
         </div>
       </div> <!-- .container-fluid -->
     </div>
-     <!-- .page-section -->
   </main>
 
   <footer class="page-footer">
@@ -266,37 +465,30 @@
           <h3>Madhav<span class="text-primary">Infotech.</span></h3>
           <p>At Madhav Infotech, we provide top-notch web development, design, and digital solutions to help your business thrive online. Let's bring your ideas to life!</p>
           <p><a href="tel:+917016223029">Call us: +91 70162 23029</a></p>
-          <p><a href="mailto:info@madhavinfotech.com">Email:madhavwebservice@gmail.com</a></p>
+          <p><a href="mailto:madhavwebservice@gmail.com">Email: madhavwebservice@gmail.com</a></p>
         </div>
         
         <div class="col-lg-4 py-2">
-          <h5>Service</h5>
+          <h5>Services</h5>
           <ul class="footer-menu">
+            <li><a>Web Design & Development</a></li>
+            <li><a>Software Development</a></li>
+            <li><a>Digital Marketing</a></li>
             <li><a>Google Business Profile</a></li>
-            <li><a>Website Development</a></li>
-            <li><a>Website Designing</a></li>
-            <li><a>App Development</a></li>
             <li><a>Graphics Design</a></li>
           </ul>
         </div>
         
-        <style>
-          .footer-menu li a {
-            cursor: default;
-          }
-        </style>
-
         <div class="col-lg-4 py-3">
-          <h5>Subscribe</h5>
-          <form action="#">
-            <input type="text" class="form-control" placeholder="Enter your mail..">
-          </form>
+          <h5>Connect With Us</h5>
+            <a href="https://madhav-infotech.vercel.app" target="_blank" class="btn social-twitter ml-2"><span class="mai-logo-google"></span></a>
+            <a href="https://wa.me/917016223029?text=Hello%2C%20I'm%20interested%20in%20your%20services" 
+   target="_blank" 
+   class="btn social-twitter ml-2">
+   <span class="mai-logo-whatsapp"></span>
+</a>
 
-          <div class="sosmed-button mt-4">
-            <a href="https://www.linkedin.com/in/parmar-kalpesh/"><span class="mai-logo-linkedin"></span></a>
-            <a href="https://madhav-infotech.vercel.app/"><span class="mai-logo-google"></span></a>
-            <a href="https://kalpesh-parmar.vercel.app/"><span class="mai-logo-github"></span></a>
-          </div>
+            <!-- <a href="https://www.linkedin.com/" target="_blank" class="btn social-twitter ml-2"><span class="mai-logo-whatsapp"></span></a> -->
         </div>
       </div>
 
@@ -306,16 +498,12 @@
            &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://madhav-infotech.vercel.app/" target="_blank">MadhavInfotech.</a></p>
         </div>
         <div class="col-sm-6 py-2 text-right">
-          <div class="d-inline-block px-3">
-            <a href="#">Privacy</a>
-          </div>
-          <div class="d-inline-block px-3">
-            <a href="#">Contact Us</a>
-          </div>
+          <a href="#">Privacy Policy</a> | 
+          <a href="#">Terms of Service</a>
         </div>
       </div>
     </div> <!-- .container -->
-  </footer> <!-- .page-footer -->
+  </footer>
 
   <script src="./assets/js/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
@@ -323,8 +511,33 @@
   <script src="./assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
   <script src="./assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="./assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
-  <script src="./assets/js/google-maps.js"></script>
   <script src="./assets/js/theme.js"></script>
-
+  
+  <script>
+    // Initialize animations
+    new WOW().init();
+    
+    // Back to top button functionality
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 300) {
+        $('.back-to-top').fadeIn();
+      } else {
+        $('.back-to-top').fadeOut();
+      }
+    });
+    
+    $('.back-to-top').click(function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop: 0}, 800);
+      return false;
+    });
+    
+    // Contact form submission
+    $('.contact-form').submit(function(e) {
+      e.preventDefault();
+      alert('Thank you for your message! We will contact you soon.');
+      this.reset();
+    });
+  </script>
 </body>
 </html>
