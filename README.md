@@ -28,7 +28,7 @@ Visit our Virtual Host website: [Madhav Infotech](https://madhav-infotech.vercel
 ## Contact
 For any inquiries or if you'd like to discuss your project, feel free to reach out to us:
 
-Email: madhavwebservice@gmail.com
+Email: madhavtech.projects@gmail.com
 Phone: +91 70162 23029
 Website: Madhav Infotech
 License
